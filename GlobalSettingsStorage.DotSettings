@@ -616,7 +616,7 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/EMPTY_BLOCK_STYLE/@EntryValue">TOGETHER_SAME_LINE</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INITIALIZER_BRACES/@EntryValue">NEXT_LINE_SHIFTED_2</s:String>
 	<s:Boolean x:Key="/Default/CodeStyle/Generate/=Constructor/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/CodeStyle/Generate/=Constructor/Options/=InsertExplicitSpecifier/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/CodeStyle/Generate/=Constructor/Options/=InsertExplicitSpecifier/@EntryIndexedValue">False</s:String>
 	
 	
 	
@@ -761,6 +761,9 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=64A059DAD62B4F47BCD0453963721541/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=64A059DAD62B4F47BCD0453963721541/EntryName/@EntryValue">Unit Test</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=64A059DAD62B4F47BCD0453963721541/Position/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=FF3FCB9B09F6644A8BBD5E63A81B392E/Entry/=4EC4C4D6A2258848A4F1EC77FB6589A1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=FF3FCB9B09F6644A8BBD5E63A81B392E/Entry/=4EC4C4D6A2258848A4F1EC77FB6589A1/EntryName/@EntryValue">incg</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=FF3FCB9B09F6644A8BBD5E63A81B392E/Entry/=4EC4C4D6A2258848A4F1EC77FB6589A1/Position/@EntryValue">17</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A31E0E08F1B2746B02DEDE06C91CA62/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A31E0E08F1B2746B02DEDE06C91CA62/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A31E0E08F1B2746B02DEDE06C91CA62/Categories/=Unit_0020Test/@EntryIndexedValue">Unit Test</s:String>
@@ -1070,7 +1073,7 @@ namespace $namespace$&#xD;
 &#xD;
 using namespace $SOLUTIONNAMESPACE$::$PROJECTNAMESPACE$::UnitTest;&#xD;
 using namespace $SOLUTIONNAMESPACE$::$PROJECTNAMESPACE$::Mock;&#xD;
-using namespace $SOLUTIONNAMESPACE$::$PROJECTNAMESPACE$&#xD;
+using namespace $SOLUTIONNAMESPACE$::$PROJECTNAMESPACE$;&#xD;
 using namespace testing;&#xD;
 &#xD;
 $CLASSNAME$::$CLASSNAME$()&#xD;
@@ -1213,7 +1216,7 @@ namespace $SOLUTIONNAMESPACE$&#xD;
 		{&#xD;
 			/**&#xD;
 			* This class contains all of the methods that are necessary to test the functionality of $CLASSUNDERTEST$.&#xD;
-			* The methods contained in this class were designed to test every conditional statement and function call in $CLASSUNDERTEST$.cpp&#xD;
+			* The methods contained in this class were designed to test every conditional statement and function call in $CLASSUNDERTEST$&#xD;
 			*/&#xD;
 			class $CLASSNAME$ : public testing::Test&#xD;
 			{&#xD;
